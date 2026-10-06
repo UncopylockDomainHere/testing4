@@ -969,10 +969,6 @@ sideMenu.innerHTML = `
             <span class="lbl">Favorite Games</span>
             <span class="badge" id="badgeFav">0</span>
         </div>
-        <div class="sm-btn" data-view="chat">
-            <span class="ico">⌨</span>
-            <span class="lbl">Chat</span>
-        </div>
     </div>
     <div class="sm-foot">CLASSLINK // GHOST-GRID</div>
 `;
