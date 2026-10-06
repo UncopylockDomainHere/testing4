@@ -981,7 +981,7 @@ document.body.appendChild(sideMenu);
 // ───────────────────────────────────────────────────────────────────────────
 // 5a. Chat view — loads the remote chat HTML inside an in-launcher iframe
 // ───────────────────────────────────────────────────────────────────────────
-const CHAT_URL = 'https://cdn.jsdelivr.net/gh/UncopylockDomainHere/chat/index.html';
+const CHAT_URL = '';
 // jsdelivr serves this file as text/plain, so we can't just point an iframe
 // `src` at it (the browser would render the raw source). Instead we fetch the
 // HTML and write it into the iframe's own document, with a <base> tag so the
